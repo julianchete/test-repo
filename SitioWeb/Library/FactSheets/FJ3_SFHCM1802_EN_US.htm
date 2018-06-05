@@ -1,0 +1,167 @@
+﻿<!doctype  html public= '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'!>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <title>Take Action: Termination (FJ3)</title>
+  <link rel="shortcut icon" href="/~sapidp/002006825000000049342011E.ico" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  
+  <script type="text/javascript">
+//<![CDATA[
+  !window.jQuery && document.write('<script src="../../Frame/js/002006825000000203192011E.js"><\/script>' )
+  //]]>
+  </script>
+  <script type="text/javascript">
+//<![CDATA[
+  if (document.URL.indexOf('https://websmp') == -1) {document.writeln('<link rel="stylesheet" type="text/css" href="../../Frame/css/002006825000000203222011E.css" ><\/link>');} else {document.writeln('<link rel="stylesheet" type="text/css" href="/~sapidp/002006825000000203222011E.css" ><\/link>'); }
+  //]]>
+  </script>
+  <script src="../../Frame/js/jquery.min.js" type="text/javascript">
+</script>
+</head>
+<body>
+	<div id="wrapper">
+		<div  id="back" align="right" >
+	<p><a  onclick="history.back(-1)" >Back</a></p>
+	</div>	
+		<h1 id="top">Take Action: Termination</h1>
+		<p></p>
+		
+
+			<div id="links" class="reltopics">  <!--links to scope item documents go here -->
+				<h4>Find out more</h4>
+					<p>
+					   <a href="../../Library/ProcessDiagrams/FJ3_SFHCM1802_Process_Overview_EN_XX.pptx" class="file-ppt " target="_blank">Process flow</a>
+					</p>
+					<p>
+					   <a href="../../Library/Simulations/FJ3_SFHCM1802_ProFlow_Recording_EN_XX.zip" class="file-zip " target="_blank">Scope-item simulation</a>
+					</p>
+					<p>
+					   <a href="../../Library/TestScripts/FJ3_SFHCM1802_BPD_EN_XX.docx" class="file-doc " target="_blank">Test script</a>
+					</p>
+			</div>
+		
+		
+		
+		<p><p>This business process describes the termination of an employee&apos;s contract and the tracking of all relevant data including termination dates (termination effective date, last day worked, pay through date, next pay date, etc.), termination reasons, rehire eligibility status, severance, and customizable termination checklists.</p><p>Both the former second level manager and the former HR business partner of the employee whose contract was terminated are notified about the termination of an employee within their area of responsibility.</p><p>In case Position Management is enabled in the SAP SuccessFactors Employee Central instance, it can be decided if the position to which the employee has been assigned during his or her appointment at the company remains active or is to be deactivated. In case the position remains active, it will remain without incumbent starting one day after the termination date. A position can be deactivated during the termination process in case no other incumbent is assigned to this position and no active lower-level positions exist below this position.</p></p>
+
+		
+		<div class="two-cols no-border" style="PADDING-TOP: 5px; MARGIN: 5px 0px 0px">
+			<div class="column1">
+					<h4>Key Process Steps Covered</h4>
+				<p><ul><li>Entering Termination Data</li><li>Sending E-mail Notification about Terminated Employee</li><li>Receiving E-mail Notification about Terminated Employee</li><li>Updating Position (Optional)</li><li>Viewing Position Details (Optional)</li><li>Viewing Terminated Employee Data</li></ul></p>
+			</div>
+			<div class="column2">
+				<h4>Benefits</h4>
+				<p><ul><li>Providing transparency of all termination relevant data including termination dates, reasons, rehire eligibility status, etc.</li></ul></p>
+			</div>
+		</div>
+
+		
+		<!--check whether scope item has S4HANA as leading prod version; do it indirectly via assigned assets from Package BOM -->
+				
+		<!-- regular scope item fact sheet -->
+
+			<!-- display border if there is content to display -->
+			<div class="two-cols" style="PADDING-TOP: 5px; MARGIN: 5px 0px 0px">
+		
+		
+			<h4>Software Products</h4>
+			<p><ul><li>SAP SuccessFactors Employee Central</li></ul></p>
+			<div id="prerequisite"> <!-- prerequisite matrix goes here -->
+				<h4>Prerequisite Building Blocks</h4>
+			<p>If you want to activate this scope item, you need to apply the following building blocks in the given sequence. For a complete overview of all scope items, see the Prerequisites Matrix.
+Before you start with the implementation, refer to the SAP Note and the attached Configuration Guide: Getting Started for the latest updates or enhancements to this package. 
+You can find all links in the Content Library of this solution package.</p>
+
+			<ol>
+				    <li>
+				        <a href="../../Library/FactSheets/1BA_SFHCM1802_EN_XX.htm" target="_blank">1BA: Employee Central: Base Setup of Data Model and Admin Center </a>
+				    </li>
+				    <li>
+				        <a href="../../Library/FactSheets/15T_SFHCM1802_EN_US.htm" target="_blank">15T: Employee Central: General Settings </a>
+				    </li>
+			</ol>
+			</div>
+		
+		</div>
+
+
+
+ 
+
+
+	</div>
+<script type="text/javascript">
+//<![CDATA[
+
+
+if (document.URL.indexOf('https://websmp') != -1) {
+	var pptcount = 0;
+	$("a").each(function () {
+		var smpLink = $(this).attr("href");
+		if ((smpLink != undefined) && (smpLink.indexOf('service.sap.com') !=  - 1 || smpLink.indexOf('websmp') != -1)) {
+			$(this).attr('href', $(this).attr('href').replace(/http.+service.+com\//i, "../../"));
+			$(this).attr('href', $(this).attr('href').replace(/http.+websmp.+\//i, "../../"));
+		}
+		var classTitle = $(this).attr("class");
+		if (classTitle != undefined && classTitle.indexOf('topic') ==  - 1) {
+			var oldLink = $(this).attr("href");
+			var pptLink = oldLink.indexOf('Process_Overview');
+			var videoLink = oldLink.indexOf('ProFlow');
+			var httpLink = oldLink.indexOf('http');
+			var htmLink = oldLink.indexOf('.htm');
+			if (pptLink == -1 && videoLink == -1) {
+				if (classTitle.indexOf('file-') != -1) {
+					$(this).hide();
+					$('#prerequisite').hide();
+				}
+			} else {
+				pptcount = pptcount + 1;
+				$(this).attr('href', $(this).attr('href').replace(".ppt", ".pdf#page=1&view=FitB&toolbar=1"));
+				$(this).attr('class', $(this).attr('class').replace("ppt", "pdf"));
+				$(this).attr('href', $(this).attr('href').replace("../../Library/Simulations/", "https://support.sap.com/content/dam/SAAP/Sol_Pack/Library/Simulations/"));
+				$(this).attr('href', $(this).attr('href').replace("../Simulations/", "https://support.sap.com/content/dam/SAAP/Sol_Pack/Library/Simulations/"));				
+			}
+		}
+	})
+	if (pptcount == 0) {
+		$("div").each(function () {
+			var classTitle2 = $(this).attr("class");
+			if (classTitle2 == "reltopics") {
+				$(this).hide();
+			}
+		});
+	}
+} else {
+	$('#download').hide();
+	if (document.URL.indexOf('/content/dam/SAAP/') == -1) {$('#back').hide();};
+};
+
+//add EN for untranslated asset
+if (document.URL.indexOf('_EN_') == -1) {
+			$("a").each(function () {
+				var aTitle = $(this).attr("href");
+				var classTitle = $(this).attr("class");
+				if (classTitle != undefined && aTitle != undefined) {
+				
+					if (aTitle.indexOf(document.URL.substr(document.URL.indexOf('.htm') - 6, 4)) ==  - 1 && (classTitle.indexOf('file-') !=  - 1 || classTitle.indexOf('littlemore') !=  - 1)) {
+											
+
+						if (aTitle.indexOf('/notes') > 0 && document.URL.substr(document.URL.indexOf('.htm') - 6, 4) == '_DE_')  {}
+						else {
+						
+							var oldtext = $(this).text();
+							var newtext = oldtext + " (EN)";
+							$(this).html(newtext);
+						}
+						
+					}
+				}
+			});
+		};
+    //]]>
+    </script>		
+</body>
+</html>

@@ -1,0 +1,175 @@
+﻿<!doctype  html public= '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'!>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <title>Take Action: Job Change/Transfer/Pay Rate Change (FJ1)</title>
+  <link rel="shortcut icon" href="/~sapidp/002006825000000049342011E.ico" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  
+  <script type="text/javascript">
+//<![CDATA[
+  !window.jQuery && document.write('<script src="../../Frame/js/002006825000000203192011E.js"><\/script>' )
+  //]]>
+  </script>
+  <script type="text/javascript">
+//<![CDATA[
+  if (document.URL.indexOf('https://websmp') == -1) {document.writeln('<link rel="stylesheet" type="text/css" href="../../Frame/css/002006825000000203222011E.css" ><\/link>');} else {document.writeln('<link rel="stylesheet" type="text/css" href="/~sapidp/002006825000000203222011E.css" ><\/link>'); }
+  //]]>
+  </script>
+  <script src="../../Frame/js/jquery.min.js" type="text/javascript">
+</script>
+</head>
+<body>
+	<div id="wrapper">
+		<div  id="back" align="right" >
+	<p><a  onclick="history.back(-1)" >Back</a></p>
+	</div>	
+		<h1 id="top">Take Action: Job Change/Transfer/Pay Rate Change</h1>
+		<p></p>
+		
+
+			<div id="links" class="reltopics">  <!--links to scope item documents go here -->
+				<h4>Find out more</h4>
+					<p>
+					   <a href="../../Library/ProcessDiagrams/FJ1_SFHCM1802_Process_Overview_EN_XX.pptx" class="file-ppt " target="_blank">Process flow</a>
+					</p>
+					<p>
+					   <a href="../../Library/Simulations/FJ1_SFHCM1802_ProFlow_Recording_EN_XX.zip" class="file-zip " target="_blank">Scope-item simulation</a>
+					</p>
+					<p>
+					   <a href="../../Library/TestScripts/FJ1_SFHCM1802_BPD_EN_XX.docx" class="file-doc " target="_blank">Test script</a>
+					</p>
+			</div>
+		
+		
+		
+		<p><p>This business process describes the use of actions for changing the job and/or compensation information of an employee. These actions may refer to job change, transfer, and pay rate change. Depending on the actions executed, the employee may experience an update of the job information and/or compensation information i.e. pay rate change, spot bonus, recurring deductions, or one time deduction.</p><p>In case Position Management is enabled in the SAP SuccessFactors Employee Central instance, additional actions can be executed: for example, a change in the job information to an employee who is incumbent of a position results in updates of that position. Depending on whether the position is regular or shared, the system behaves differently. In addition, the case of transfer of an employee from his/her current position to a position in the area of responsibility of another line manager is described.</p></p>
+
+		
+		<div class="two-cols no-border" style="PADDING-TOP: 5px; MARGIN: 5px 0px 0px">
+			<div class="column1">
+					<h4>Key Process Steps Covered</h4>
+				<p><ul>
+<li>Requesting Employee Job Change/Transfer/Pay Rate Change/Spot Bonus/Recurring or One Time Deduction/Position Change/Implicit Position Update</li>
+<li>Receiving Request for Employee Information Change</li>
+<li>Entering Change Data</li>
+<li>Approving Change Data</li>
+<li>Notifying Line Manager and Employee about Change Completion</li>
+<li>Receiving Change Completion Notification</li>
+<li>Managing Alternative Cost Distribution</li>
+</ul></p>
+			</div>
+			<div class="column2">
+				<h4>Benefits</h4>
+				<p><ul><li>Providing full traceability of employee changes to job, compensation, or position</li></ul></p>
+			</div>
+		</div>
+
+		
+		<!--check whether scope item has S4HANA as leading prod version; do it indirectly via assigned assets from Package BOM -->
+				
+		<!-- regular scope item fact sheet -->
+
+			<!-- display border if there is content to display -->
+			<div class="two-cols" style="PADDING-TOP: 5px; MARGIN: 5px 0px 0px">
+		
+		
+			<h4>Software Products</h4>
+			<p><ul><li>SAP SuccessFactors Employee Central</li></ul></p>
+			<div id="prerequisite"> <!-- prerequisite matrix goes here -->
+				<h4>Prerequisite Building Blocks</h4>
+			<p>If you want to activate this scope item, you need to apply the following building blocks in the given sequence. For a complete overview of all scope items, see the Prerequisites Matrix.
+Before you start with the implementation, refer to the SAP Note and the attached Configuration Guide: Getting Started for the latest updates or enhancements to this package. 
+You can find all links in the Content Library of this solution package.</p>
+
+			<ol>
+				    <li>
+				        <a href="../../Library/FactSheets/1BA_SFHCM1802_EN_XX.htm" target="_blank">1BA: Employee Central: Base Setup of Data Model and Admin Center </a>
+				    </li>
+				    <li>
+				        <a href="../../Library/FactSheets/15T_SFHCM1802_EN_US.htm" target="_blank">15T: Employee Central: General Settings </a>
+				    </li>
+			</ol>
+			</div>
+		
+		</div>
+
+
+
+ 
+
+
+	</div>
+<script type="text/javascript">
+//<![CDATA[
+
+
+if (document.URL.indexOf('https://websmp') != -1) {
+	var pptcount = 0;
+	$("a").each(function () {
+		var smpLink = $(this).attr("href");
+		if ((smpLink != undefined) && (smpLink.indexOf('service.sap.com') !=  - 1 || smpLink.indexOf('websmp') != -1)) {
+			$(this).attr('href', $(this).attr('href').replace(/http.+service.+com\//i, "../../"));
+			$(this).attr('href', $(this).attr('href').replace(/http.+websmp.+\//i, "../../"));
+		}
+		var classTitle = $(this).attr("class");
+		if (classTitle != undefined && classTitle.indexOf('topic') ==  - 1) {
+			var oldLink = $(this).attr("href");
+			var pptLink = oldLink.indexOf('Process_Overview');
+			var videoLink = oldLink.indexOf('ProFlow');
+			var httpLink = oldLink.indexOf('http');
+			var htmLink = oldLink.indexOf('.htm');
+			if (pptLink == -1 && videoLink == -1) {
+				if (classTitle.indexOf('file-') != -1) {
+					$(this).hide();
+					$('#prerequisite').hide();
+				}
+			} else {
+				pptcount = pptcount + 1;
+				$(this).attr('href', $(this).attr('href').replace(".ppt", ".pdf#page=1&view=FitB&toolbar=1"));
+				$(this).attr('class', $(this).attr('class').replace("ppt", "pdf"));
+				$(this).attr('href', $(this).attr('href').replace("../../Library/Simulations/", "https://support.sap.com/content/dam/SAAP/Sol_Pack/Library/Simulations/"));
+				$(this).attr('href', $(this).attr('href').replace("../Simulations/", "https://support.sap.com/content/dam/SAAP/Sol_Pack/Library/Simulations/"));				
+			}
+		}
+	})
+	if (pptcount == 0) {
+		$("div").each(function () {
+			var classTitle2 = $(this).attr("class");
+			if (classTitle2 == "reltopics") {
+				$(this).hide();
+			}
+		});
+	}
+} else {
+	$('#download').hide();
+	if (document.URL.indexOf('/content/dam/SAAP/') == -1) {$('#back').hide();};
+};
+
+//add EN for untranslated asset
+if (document.URL.indexOf('_EN_') == -1) {
+			$("a").each(function () {
+				var aTitle = $(this).attr("href");
+				var classTitle = $(this).attr("class");
+				if (classTitle != undefined && aTitle != undefined) {
+				
+					if (aTitle.indexOf(document.URL.substr(document.URL.indexOf('.htm') - 6, 4)) ==  - 1 && (classTitle.indexOf('file-') !=  - 1 || classTitle.indexOf('littlemore') !=  - 1)) {
+											
+
+						if (aTitle.indexOf('/notes') > 0 && document.URL.substr(document.URL.indexOf('.htm') - 6, 4) == '_DE_')  {}
+						else {
+						
+							var oldtext = $(this).text();
+							var newtext = oldtext + " (EN)";
+							$(this).html(newtext);
+						}
+						
+					}
+				}
+			});
+		};
+    //]]>
+    </script>		
+</body>
+</html>

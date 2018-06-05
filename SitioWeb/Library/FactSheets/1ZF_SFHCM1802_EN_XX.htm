@@ -1,0 +1,107 @@
+﻿<!doctype  html public= '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'!>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Employee Central: Setup Apprentice Management</title>
+  <link rel="shortcut icon" href="/~sapidp/002006825000000049342011E.ico" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+
+  <script type="text/javascript">
+//<![CDATA[
+  !window.jQuery && document.write('<script src="../../Frame/js/002006825000000203192011E.js"><\/script>' )
+  //]]>
+  </script>
+  <script type="text/javascript">
+//<![CDATA[
+  if (document.URL.indexOf('https://websmp') == -1) {document.writeln('<link rel="stylesheet" type="text/css" href="../../Frame/css/002006825000000203222011E.css" ><\/link>');} else {document.writeln('<link rel="stylesheet" type="text/css" href="/~sapidp/002006825000000203222011E.css" ><\/link>'); }
+  //]]>
+  </script>
+  <script src="../../Frame/js/jquery.min.js" type="text/javascript">
+  </script>
+</head>
+<body>
+	<div id="wrapper">
+		<h1 id="top">Employee Central: Setup Apprentice Management</h1>
+		
+		
+		
+		
+		
+		
+	 
+		<p><p>This building block describes the general configuration for Setup Apprentice Management delivered as part of this solution. The description supplements the existing configuration documentation and provides additional information where required.</p></p>
+		<div class="two-cols no-border" style="PADDING-TOP: 5px; MARGIN: 15px 0px 0px">
+			<div>
+				<h4>Function list</h4>
+				<p><p>The following functions are provided to support the Setup Apprentice Management:</p>
+<p>•Enabling Apprentice Management</p>
+<p>•Providing Apprenticeship Event Types</p>
+<p>•Enhancing Picklists</p>
+<p>•Checking Role-Based Permissions</p></p>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+//<![CDATA[
+    if (document.URL.indexOf('https://websmp') != -1) {
+    var pptcount = 0;
+    $("a").each(function()
+    {
+	var smpLink = $(this).attr("href");
+	if (smpLink != undefined  ) {
+	$(this).attr('href', $(this).attr('href').replace(/http.+service.+com\//i, "../../"));		
+	$(this).attr('href', $(this).attr('href').replace(/http.+websmp.+\//i, "../../"));		
+	}
+	var classTitle = $(this).attr("class");
+    if (classTitle != undefined && classTitle.indexOf('topic') == - 1) {
+    var oldLink = $(this).attr("href");
+    var pptLink = oldLink.indexOf('Process_Overview')
+    var httpLink = oldLink.indexOf('http')
+    var htmLink = oldLink.indexOf('.htm')
+    if (pptLink == -1 )  {
+    if (  classTitle.indexOf('file-') != - 1)  {
+    $(this).hide();
+    }}
+    else {pptcount = pptcount + 1;
+    $(this).attr('href', $(this).attr('href').replace(".ppt", ".pdf#page=1&view=FitB&toolbar=1")); 
+    $(this).attr('class', $(this).attr('class').replace("ppt", "pdf")); 
+    }}})
+    if (pptcount == 0 )  {
+    $("div").each(function()
+    {var classTitle2 =  $(this).attr("class");
+    if (classTitle2 == "reltopics") {
+    $(this).hide();}});}
+	} 	else {
+	$('#download').hide();
+	if (document.URL.indexOf('/content/dam/SAAP/') == -1) {$('#back').hide();};
+	};
+    //]]>
+	
+	//add EN for untranslated asset
+	if (document.URL.indexOf('_EN_') == -1) {
+			$("a").each(function () {
+				var aTitle = $(this).attr("href");
+				var classTitle = $(this).attr("class");
+				if (classTitle != undefined && aTitle != undefined) {
+				
+					if (aTitle.indexOf(document.URL.substr(document.URL.indexOf('.htm') - 6, 4)) ==  - 1 && (classTitle.indexOf('file-') !=  - 1 || classTitle.indexOf('littlemore') !=  - 1)) {
+											
+
+						if (aTitle.indexOf('/notes') > 0 && document.URL.substr(document.URL.indexOf('.htm') - 6, 4) == '_DE_')  {}
+						else {
+						
+							var oldtext = $(this).text();
+							var newtext = oldtext + " (EN)";
+							$(this).html(newtext);
+						}
+						
+					}
+				}
+			});
+		};
+		
+    </script>
+
+</html>

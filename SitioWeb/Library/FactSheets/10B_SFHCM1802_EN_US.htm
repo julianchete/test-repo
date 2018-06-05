@@ -1,0 +1,164 @@
+﻿<!doctype  html public= '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'!>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <title>Manage Leave Of Absence (10B)</title>
+  <link rel="shortcut icon" href="/~sapidp/002006825000000049342011E.ico" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  
+  <script type="text/javascript">
+//<![CDATA[
+  !window.jQuery && document.write('<script src="../../Frame/js/002006825000000203192011E.js"><\/script>' )
+  //]]>
+  </script>
+  <script type="text/javascript">
+//<![CDATA[
+  if (document.URL.indexOf('https://websmp') == -1) {document.writeln('<link rel="stylesheet" type="text/css" href="../../Frame/css/002006825000000203222011E.css" ><\/link>');} else {document.writeln('<link rel="stylesheet" type="text/css" href="/~sapidp/002006825000000203222011E.css" ><\/link>'); }
+  //]]>
+  </script>
+  <script src="../../Frame/js/jquery.min.js" type="text/javascript">
+</script>
+</head>
+<body>
+	<div id="wrapper">
+		<div  id="back" align="right" >
+	<p><a  onclick="history.back(-1)" >Back</a></p>
+	</div>	
+		<h1 id="top">Manage Leave Of Absence</h1>
+		<p></p>
+		
+
+			<div id="links" class="reltopics">  <!--links to scope item documents go here -->
+				<h4>Find out more</h4>
+					<p>
+					   <a href="../../Library/ProcessDiagrams/10B_SFHCM1802_Process_Overview_EN_US.pptx" class="file-ppt " target="_blank">Process flow</a>
+					</p>
+					<p>
+					   <a href="../../Library/Simulations/10B_SFHCM1802_ProFlow_Recording_EN_XX.zip" class="file-zip " target="_blank">Scope-item simulation</a>
+					</p>
+					<p>
+					   <a href="../../Library/TestScripts/10B_SFHCM1802_BPD_EN_US.docx" class="file-doc " target="_blank">Test script</a>
+					</p>
+			</div>
+		
+		
+		
+		<p><p>For customers who do not have SAP SuccessFactors Time Off activated, this business process describes the typical activities performed to manage Leave of Absence in SAP SuccessFactors Employee Central.</p><p>Situations can occur in which the employee may be absent for a longer period from work. A reason for interrupting a work relationship is, for example, parental leave. The employee requests a leave of absence; after approval by the line manager and the HR business partner of the employee, an event with appropriate event reason is triggered, which results in the appropriate setting of the employee’s status to mark that the employee is away from work for a longer period.</p><p>In case Position Management is enabled, you can decide whether that employee should have the right to return to his or her current position when the leave of absence is over. For this, the Right to Return feature needs to be set. Right to Return is also visualized on the Position Org Chart.</p></p>
+
+		
+		<div class="two-cols no-border" style="PADDING-TOP: 5px; MARGIN: 5px 0px 0px">
+			<div class="column1">
+					<h4>Key Process Steps Covered</h4>
+				<p><ul><li>Requesting Leave of Absence</li><li>Processing Leave of Absence Request</li><li>Processing Approved Leave of Absence Request</li><li>Viewing Employee Position Details (Optional)</li><li>Viewing Employee Job Information Details</li><li>Entering Return to Work from Leave of Absence Data</li></ul></p>
+			</div>
+			<div class="column2">
+				<h4>Benefits</h4>
+				<p><ul><li>Enabling employees to register their leave of absence at the period for which they are absent</li><li>Providing full traceability when an employee takes a leave of absence and returns from the leave</li></ul></p>
+			</div>
+		</div>
+
+		
+		<!--check whether scope item has S4HANA as leading prod version; do it indirectly via assigned assets from Package BOM -->
+				
+		<!-- regular scope item fact sheet -->
+
+			<!-- display border if there is content to display -->
+			<div class="two-cols" style="PADDING-TOP: 5px; MARGIN: 5px 0px 0px">
+		
+		
+			<h4>Software Products</h4>
+			<p><ul><li>SAP SuccessFactors Employee Central</li></ul></p>
+			<div id="prerequisite"> <!-- prerequisite matrix goes here -->
+				<h4>Prerequisite Building Blocks</h4>
+			<p>If you want to activate this scope item, you need to apply the following building blocks in the given sequence. For a complete overview of all scope items, see the Prerequisites Matrix.
+Before you start with the implementation, refer to the SAP Note and the attached Configuration Guide: Getting Started for the latest updates or enhancements to this package. 
+You can find all links in the Content Library of this solution package.</p>
+
+			<ol>
+				    <li>
+				        <a href="../../Library/FactSheets/1PW_SFHCM1802_EN_US.htm" target="_blank">1PW: Employee Central: Setup Leave of Absence </a>
+				    </li>
+			</ol>
+			</div>
+		
+		</div>
+
+
+
+ 
+
+
+	</div>
+<script type="text/javascript">
+//<![CDATA[
+
+
+if (document.URL.indexOf('https://websmp') != -1) {
+	var pptcount = 0;
+	$("a").each(function () {
+		var smpLink = $(this).attr("href");
+		if ((smpLink != undefined) && (smpLink.indexOf('service.sap.com') !=  - 1 || smpLink.indexOf('websmp') != -1)) {
+			$(this).attr('href', $(this).attr('href').replace(/http.+service.+com\//i, "../../"));
+			$(this).attr('href', $(this).attr('href').replace(/http.+websmp.+\//i, "../../"));
+		}
+		var classTitle = $(this).attr("class");
+		if (classTitle != undefined && classTitle.indexOf('topic') ==  - 1) {
+			var oldLink = $(this).attr("href");
+			var pptLink = oldLink.indexOf('Process_Overview');
+			var videoLink = oldLink.indexOf('ProFlow');
+			var httpLink = oldLink.indexOf('http');
+			var htmLink = oldLink.indexOf('.htm');
+			if (pptLink == -1 && videoLink == -1) {
+				if (classTitle.indexOf('file-') != -1) {
+					$(this).hide();
+					$('#prerequisite').hide();
+				}
+			} else {
+				pptcount = pptcount + 1;
+				$(this).attr('href', $(this).attr('href').replace(".ppt", ".pdf#page=1&view=FitB&toolbar=1"));
+				$(this).attr('class', $(this).attr('class').replace("ppt", "pdf"));
+				$(this).attr('href', $(this).attr('href').replace("../../Library/Simulations/", "https://support.sap.com/content/dam/SAAP/Sol_Pack/Library/Simulations/"));
+				$(this).attr('href', $(this).attr('href').replace("../Simulations/", "https://support.sap.com/content/dam/SAAP/Sol_Pack/Library/Simulations/"));				
+			}
+		}
+	})
+	if (pptcount == 0) {
+		$("div").each(function () {
+			var classTitle2 = $(this).attr("class");
+			if (classTitle2 == "reltopics") {
+				$(this).hide();
+			}
+		});
+	}
+} else {
+	$('#download').hide();
+	if (document.URL.indexOf('/content/dam/SAAP/') == -1) {$('#back').hide();};
+};
+
+//add EN for untranslated asset
+if (document.URL.indexOf('_EN_') == -1) {
+			$("a").each(function () {
+				var aTitle = $(this).attr("href");
+				var classTitle = $(this).attr("class");
+				if (classTitle != undefined && aTitle != undefined) {
+				
+					if (aTitle.indexOf(document.URL.substr(document.URL.indexOf('.htm') - 6, 4)) ==  - 1 && (classTitle.indexOf('file-') !=  - 1 || classTitle.indexOf('littlemore') !=  - 1)) {
+											
+
+						if (aTitle.indexOf('/notes') > 0 && document.URL.substr(document.URL.indexOf('.htm') - 6, 4) == '_DE_')  {}
+						else {
+						
+							var oldtext = $(this).text();
+							var newtext = oldtext + " (EN)";
+							$(this).html(newtext);
+						}
+						
+					}
+				}
+			});
+		};
+    //]]>
+    </script>		
+</body>
+</html>
