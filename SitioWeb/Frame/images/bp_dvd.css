@@ -1,0 +1,506 @@
+p, td {font: 8pt tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+	}	
+
+	
+/* **************************************** */
+/* Styles                                   */
+/* **************************************** */
+	
+/**************************** BULLETED LISTS **************************/	
+ul {font: 8pt tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	list-style-type: square;
+	color:#333333;
+	}
+ul.left {font: 8pt tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	list-style-type: square;
+	color:#333333;
+	margin-left: 12pt;
+	}
+ul.leftbullet {font: 8pt tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	list-style-image: url(BulletDove.gif);
+	color:#333333;
+	margin-left: 12pt;
+	}
+ul.bulletgold {font: 8pt tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	list-style-image: url(BulletGold.gif);
+	color:#333333;
+    }
+
+
+ol {font: 8pt tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	list-style-type: decimal;
+	color:#333333;
+	}
+	
+li {font: 8pt tahoma, arial, helvetica, sans-serif;
+	margin-top: 4pt;
+	color:#333333;
+	}
+	
+li.no-indent {font: 8pt tahoma, arial, helvetica, sans-serif;
+	margin-top: 4pt;
+	list-style-type: square;
+	color:#333333;
+	}
+	
+li.sm-indent {font: 8pt tahoma, arial, helvetica, sans-serif;
+	margin-top: 8pt;
+	margin-left: 10pt;
+	text-indent: 6px;
+	list-style-type: square;
+	color: #333333;
+	}
+	
+li.sm-indent-wh {font: 8pt tahoma, arial, helvetica, sans-serif;
+	margin-top: 4pt;
+	margin-left: 10pt;
+	text-indent: 6px;
+	list-style-type: square;
+	color: #ffffff;
+	}	
+
+li.highlight {font: 8pt tahoma, arial, helvetica, sans-serif;
+	margin-left: -4px;
+	margin-top: 6px;
+	list-style-type: square;
+	color: #333333;
+	}
+	
+li.white {font: 8pt tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	list-style-type: square;
+	color:#ffffff;
+	}		
+
+		
+/*************** Tags:	H1, H2, H3, H4, H5 ******************************************/
+
+/* Headings1-2 */
+
+img.GraphicalH1 {
+padding-top: 25px;
+padding-bottom: 9px;
+}
+span.Lowercase {
+text-transform: none;
+}
+h1 {
+font: 19px/22px Arial Black, Arial, Helvetica, sans-serif; 
+color: #f0ab00; 
+text-transform: uppercase;
+letter-spacing: -0.05em;
+margin-top: 5px;
+margin-bottom: 25px;
+}
+
+h2 {
+font: 16px/19px Arial, Helvetica, sans-serif; 
+color: #666666; 
+text-transform: uppercase;
+margin-top: -20px;
+margin-bottom: 25px;
+}
+
+h2.key {
+font: 16px/19px Arial, Helvetica, sans-serif; 
+color: #FFFFFF; 
+text-transform: uppercase;
+margin-top: -20px;
+margin-bottom: 5px;
+}
+
+
+/* Headings3-6 REVISED */
+
+h3 {
+font: Bold 15px/17px Arial, Helvetica, sans-serif; 
+margin-bottom: -10px;
+}
+h4  {
+font: Bold 13px/16px Arial, Helvetica, sans-serif; 
+margin-bottom: -10px;
+}
+h4.AllCaps {
+font: Bold 12px/16px Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+}
+h5 {
+font: Bold 12px/15px Arial, Helvetica, sans-serif; 
+margin-bottom: -10px;
+}
+h6 {
+font: Bold 11px/13px Arial, Helvetica, sans-serif; 
+margin-bottom: -10px;
+}
+div.Dove h3 {
+color: #44697D;
+}
+div.Dove h4 {
+color: #44697D;
+}
+div.Dove h5 {
+color: #44697D;
+}
+div.Dove h6 {
+color: #44697D;
+}
+div.Petrol h3 {
+color: #156570;
+}
+div.Petrol h4 {
+color: #156570;
+}
+div.Petrol h5 {
+color: #156570;
+}
+div.Petrol h6 {
+color: #156570;
+}
+div.WarmGreen h3 {
+color: #557630;
+}
+div.WarmGreen h4 {
+color: #557630;
+}
+div.WarmGreen h5 {
+color: #557630;
+}
+div.WarmGreen h6 {
+color: #557630;
+}
+div.WarmRed h3 {
+color: #774A39;
+}
+div.WarmRed h4 {
+color: #774A39;
+}
+div.WarmRed h5 {
+color: #774A39;
+}
+div.WarmRed h6 {
+color: #774A39;
+}
+div.VioletMauve h3 {
+color: #644459;
+}
+div.VioletMauve h4 {
+color: #644459;
+}
+div.VioletMauve h5 {
+color: #644459;
+}
+div.VioletMauve h6 {
+color: #644459;
+}
+
+/*************** Tags:	FONT, P, B, I ***************************/
+
+.red {
+color: #993333;
+}
+.dk-orange {
+color: #cc6600;
+}
+.orange {
+color: #ff9900;
+}
+.warmred {
+color: #774A39;
+}
+.green {
+color: #156570;
+}
+.dove {
+color: #44697D;
+}
+.blue {
+color: #336699;
+}
+.purple {
+color: #663366;
+}
+.gray {
+color: #666666;
+}
+.white {
+color: #ffffff;
+}
+.bg-dove {
+background-color: #E3E9EC;
+}
+.bg-petrol {
+background-color: #D0E0E2;
+}
+
+/*************************** Tags:A HREF *********************/
+
+a {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 8pt;
+text-decoration: underline;
+color: #336699;
+}
+a:visited {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 8pt;
+text-decoration: underline;
+color: #663366;
+}
+a:hover {font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 8pt;
+text-decoration: none;
+color: #336699;
+}
+
+a.navigation {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 8pt;
+text-decoration: none;
+font-style: normal;
+font-weight: normal;
+line-height: 15pt;
+color: #ffffff;
+}
+a.navigation:visited {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 8pt;
+text-decoration: none;
+font-style: normal;
+font-weight: normal;
+line-height: 15pt;
+color: #ffffff;
+}
+a.navigation:hover {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 8pt;
+text-decoration: underline;
+font-style: normal;
+font-weight: normal;
+line-height: 15pt;
+color: #ffffff;
+}
+
+a.navigation-bold {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 8pt;
+text-decoration: none;
+font-style: normal;
+font-weight: bold;
+line-height: 15pt;
+color: #ffa000;
+}
+a.navigation-bold:visited {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 8pt;
+text-decoration: none;
+font-style: normal;
+font-weight: bold;
+line-height: 15pt;
+color: #ffa000;
+}
+a.navigation-bold:hover {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 8pt;
+text-decoration: underline;
+font-style: normal;
+font-weight: bold;
+line-height: 15pt;
+color: #ffa000;
+}
+
+/**************** Preconfigured scenarios tree navigation *****************/
+.parentTreeNode {
+	color: #000000;
+	font-size:8pt;
+    text-decoration: none;
+	border: 1px transparent;
+	padding: 0px 3px 0px 3px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.parentTreeNode:hover {
+	color: #000000;
+	border: 1px solid #000000;
+	background-color: #EEEEEE;
+}
+.normalTreeNode {
+	color: #000000;
+	font-size:8pt;
+	text-decoration: none;
+	border: 1px transparent;
+	display: block;
+	padding: 0px 3px 0px 3px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.normalTreeNode:hover {
+	color: #336699;
+	border: 1px transparent;
+	text-decoration: underline;
+}
+.expandCollapse {
+	color: #000000;
+	font-size:8pt;
+	border: 1px transparent;
+	padding: 0px 3px 0px 3px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.expandCollapse:hover {
+	color: #000000;
+	background-color: #EEEEEE;
+	border: 1px solid #000000;
+}
+
+
+/*************************TEXT AND LISTS *******************************/
+.no-top-margin {
+	margin-top: 0;
+}
+
+li.no-indent-dark {
+	font: 8pt tahoma, arial, helvetica, sans-serif;
+	margin-top: 4px;
+	list-style-type: square;
+	color:#333333;
+}
+	
+.normalWeight {
+	font-weight: normal; 
+}
+
+.error {
+	font: 8pt tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	color: #CC0000;
+}
+/* ANCHORS */
+a.tab {
+	color: #333333;
+	background-color: #999996;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.icon {
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.icon:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+a.button-text {
+	font: 8pt tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	color: #333333;
+}
+
+/***************** Footer **********************************************/
+
+p.FooterText {
+color: #ffffff;
+vertical-align: bottom;
+margin: 0px;
+}
+span.FooterBracket {
+padding: 0px 5px 0px 5px;
+background: url(/global/images/FooterBracket.gif) no-repeat center;
+}
+p.FooterText a {
+color: #ffffff;
+text-decoration: none;
+}
+p.FooterText a:visited {
+color: #ffffff;
+text-decoration: none;
+}
+p.FooterText a:hover {
+color: #ffffff;
+text-decoration: underline;
+}
+
+
+/************************CONTENT NAVIGATION***********************************/
+
+a.sap-content-links {color:#336699;
+	text-decoration: underline;
+	}
+
+a.sap-content-links:visited {color:#336699;
+	text-decoration: underline;
+	}
+
+a.sap-content-links:hover {color:#336699;
+	text-decoration: underline;
+	}
+	
+/***************************************************************************/
+
+/****************** DATA TABLES *******************************************/
+.even {
+	background-color: #CCCCCC;
+}
+
+.odd {
+	background-color: #EEEEEE;
+}
+
+.white-border {
+	border: 1px;
+	border-color: #FFFFFF;
+	border-style: solid;
+}
+
+
+/* Netscape 4.* Radio Button Hack */
+
+input.radio {
+	background-color: #DDDDDE;
+	color: #333333;
+}
+
+input.radio2 {
+	background-color: #DDDDDC;
+	color: #333333;
+}
+/*  *******************************************************************/
+
+select {
+	font: 9pt tahoma, arial, helvetica, sans-serif;
+}
+
+
+span.assemblyVersion {position:absolute;top:50px;left:200px;color:white;font-weight:bold;font: 8pt tahoma, arial, helvetica, sans-serif;}
+span.template {position:absolute;top:50px;left:302px;color:white;font-weight:bold;font: 8pt tahoma, arial, helvetica, sans-serif;}
+p.footer, p.mastHead {color:#ffffff;}
+p.mastHead a, p.footer a{color:#ffffff;text-decoration:none;}
+p.mastHead a:visited, p.footer a:visited {color:#ffffff;text-decoration:none;}
+p.mastHead a:hover, p.footer a:hover  {text-decoration: none;color: #336699;}
+.siteRolesToolbar{background-color:#cccccc;}
+p.footer {color:#ffffff}
